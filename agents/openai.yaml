@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wireframe Prototyping"
+  short_description: "Gera wireframes com viewer incluído em qualquer projeto"
+  default_prompt: "Use $wireframe-prototyping para transformar esta ideia em um wireframe interativo de baixa fidelidade no viewer Pitang, com requisitos e fluxos, e entregar o HTML validado."

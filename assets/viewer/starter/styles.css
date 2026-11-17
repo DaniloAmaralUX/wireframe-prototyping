@@ -1,0 +1,6 @@
+.sample-page { padding-top: 24px; }
+.sample-page h1 { margin: 0; font-size: calc(var(--fs) * 26px); line-height: 1.2; }
+.sample-page p { margin: 0; color: var(--sk-ink-2); line-height: 1.5; }
+.sample-page label { font-weight: 600; }
+.sample-input { box-sizing: border-box; width: 100%; min-height: 50px; padding: 12px; border: 1.5px solid var(--sk-control-border); border-radius: 12px; background: var(--sk-surface); color: var(--sk-ink); font: inherit; font-size: max(16px, calc(var(--fs) * 16px)); }
+.sample-input::placeholder { color: var(--sk-ink-3); opacity: 1; }

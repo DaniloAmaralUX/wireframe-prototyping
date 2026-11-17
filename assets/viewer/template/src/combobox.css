@@ -1,0 +1,17 @@
+.ph .sk-combobox { --anchor-width: 100%; --sk-combobox-height: 240px; display: block; min-width: 0; color: var(--sk-ink); }
+.ph .sk-combobox ui-combobox-label { display: block; margin-bottom: 8px; font-weight: 600; }
+.ph .sk-combobox-row { display: flex; align-items: center; border: 1.5px solid var(--sk-control-border); border-radius: 12px; background: var(--sk-surface); }
+.ph .sk-combobox ui-combobox-input { display: block; flex: 1; min-width: 0; }
+.ph .sk-combobox input { box-sizing: border-box; width: 100%; min-height: 48px; padding: 12px; border: 0; border-radius: 10px; background: transparent; color: inherit; font: inherit; font-size: max(16px, calc(var(--fs) * 16px)); }
+.ph .sk-combobox input::placeholder { color: var(--sk-ink-3); opacity: 1; }
+.ph .sk-combobox-row button { min-width: 44px; min-height: 44px; border: 0; border-radius: 8px; background: transparent; color: inherit; font: inherit; font-size: 22px; cursor: pointer; }
+.ph .sk-combobox :is(input, button):focus-visible { outline: 2px solid var(--sk-focus); outline-offset: 2px; }
+.ph .sk-combobox [data-slot="combobox-content"] { box-sizing: border-box; width: var(--anchor-width); max-width: calc(100vw - 24px); margin: 0; padding: 4px; border: 1px solid var(--sk-control-border); border-radius: 12px; background: var(--sk-surface); color: var(--sk-ink); font: inherit; font-size: calc(var(--fs) * 15px); }
+.ph .sk-combobox ui-combobox-list { display: block; max-height: min(240px, var(--sk-combobox-height)); overflow-y: auto; overscroll-behavior: contain; }
+.ph .sk-combobox ui-combobox-item { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 44px; padding: 8px 12px; border-radius: 8px; overflow-wrap: anywhere; cursor: pointer; }
+.ph .sk-combobox ui-combobox-item[data-highlighted] { background: var(--sk-accent); color: var(--sk-on-accent); }
+.ph .sk-combobox ui-combobox-item[data-selected] { font-weight: 700; }
+.ph .sk-combobox ui-combobox-item[data-disabled] { color: var(--sk-ink-3); cursor: not-allowed; }
+.ph .sk-combobox ui-combobox-empty { display: block; padding: 16px 12px; }
+.ph .sk-combobox ui-combobox-empty:empty { display: none; }
+.ph .sk-combobox [hidden]:not([hidden="until-found"]) { display: none !important; }

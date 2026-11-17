@@ -1,0 +1,12 @@
+{
+  "id": "primeiro-projeto",
+  "name": "Primeiro projeto",
+  "flows": [
+    { "id": "briefing", "title": "Preencher" },
+    { "id": "review", "title": "Prévia" }
+  ],
+  "navigation": [
+    { "id": "briefing", "label": "Preencher", "flow": "briefing" },
+    { "id": "review", "label": "Prévia", "flow": "review" }
+  ]
+}

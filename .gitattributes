@@ -1,0 +1,3 @@
+* text=auto eol=lf
+# Preserve the bundled snapshot bytes checked by its hash manifests.
+assets/viewer/** -text

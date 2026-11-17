@@ -1,0 +1,12 @@
+{
+  "packages": {
+    "@ui-sdk/core": "0.1.0-beta.6",
+    "@ui-sdk/web": "0.1.0-beta.6"
+  },
+  "source": "https://github.com/vercel-labs/ui",
+  "license": "Apache-2.0",
+  "runtimeSha256": "309940e6431ab1288b5195a899a95dc8216a5d25a4877574b292620f9bfae489",
+  "entrySha256": "c9db04b04ca0eea53dac887453be7f231df95a13ea29846a9779d4eb15c2cbc0",
+  "buildSha256": "e770cff0359ce317d636ff56a7e787568573b76c45789407885940556bb926c5",
+  "lockSha256": "74cbce0e287f85704ad1f8740c3e022cd7f2da50274bc670c5364884b4981784"
+}

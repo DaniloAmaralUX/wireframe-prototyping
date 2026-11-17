@@ -1,0 +1,22 @@
+{
+  "files": {
+    "template/build.py": "d29927dd0de8228e9345b25ef5bea9669f16a5d0efb608293babde77b3568cea",
+    "LICENSE": "370cb4cc9720da1ae04b3b70f956467cf95d30d089e565d8971ece20193ac47d",
+    "template/src/index.html": "651699cfb2ff03e0de5b846a0b39b0cd960b815a1d84be990975d477ef5f3a23",
+    "template/src/shell.css": "a050b2f95e87c1f41df2ff62b7a02739a6d7927748c32dc28162919d1d33429d",
+    "template/src/picker.css": "51ae1249e4ac84799debd34643177474391e2c706d7a6701d7b62f425fe5ed7d",
+    "template/src/kit.css": "1fa60348e5af46ebdcf303591e82ba6349b1357b49ac10de03f141755dc3181a",
+    "template/src/combobox.css": "b0b268193ead59ebadeb4b5fc2b45b1f966a2fed5bdea53d5d0578f8364e379d",
+    "template/src/shell.js": "c3caca3abb43460d964312be0cfafe45dba6dd74574f5afef88d4e92a31a4792",
+    "template/src/kit.js": "e698711203a023b5c3aff0c1fd78579970e2347d04917c5284745e15b8317b7b",
+    "template/src/tour.js": "4bf848ac641925d97e4258840bf321aea7bcd079e7f659e20c6c7f57ff36bd36",
+    "template/vendor/ui-sdk/combobox.js": "309940e6431ab1288b5195a899a95dc8216a5d25a4877574b292620f9bfae489",
+    "template/vendor/ui-sdk/LICENSE": "85dc930b9f77edd477ceddd7658dd3a4bb4411186718d19e137a7a5724ee7007",
+    "template/vendor/ui-sdk/manifest.json": "30d90f12e3391b9b231c611865206cf14b6251dadb63a4581f1324a88bdb413c",
+    "template/vendor/ui-sdk/workflow-manifest.json": "988b24c6d509da7d7e0ed3397b6aebda1e0cbac8ada607b3090b6fbf367324dd",
+    "template/vendor/ui-sdk/workflow.js": "58c536fda98f582a85f04765097ac787be9f511e1cb7b9a741fcb155b8ab73de",
+    "starter/project.json": "bba1c77c13534ec43faf666957300f9eb114f9f6cd7b88c9e22a71184dd97666",
+    "starter/screens.js": "c7ffecb9c56696d70f50bf6d73237ac1d32b5757723640ff3385e9ebed43284f",
+    "starter/styles.css": "ec56d9866474a85c99557902c5dbab56b1669a8f039299ce9a52306e507caa79"
+  }
+}

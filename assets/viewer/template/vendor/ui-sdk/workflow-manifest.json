@@ -1,0 +1,11 @@
+{
+  "version": "0.1.0-beta.6",
+  "source": "https://github.com/vercel-labs/ui",
+  "runtimeSha256": "58c536fda98f582a85f04765097ac787be9f511e1cb7b9a741fcb155b8ab73de",
+  "hashes": {
+    "workflow.js": "a048f9ac4a5877fcb28ff6a7d5f6332ad0f9424c32fcba433e40d0370ac52b74",
+    "combobox.js": "c9db04b04ca0eea53dac887453be7f231df95a13ea29846a9779d4eb15c2cbc0",
+    "build-workflow.mjs": "d66ffdd22fa6c614840c11bbdd26053ef2301e9cc8e0c7b231be8f23ee43f95e",
+    "package-lock.json": "74cbce0e287f85704ad1f8740c3e022cd7f2da50274bc670c5364884b4981784"
+  }
+}
