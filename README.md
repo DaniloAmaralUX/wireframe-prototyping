@@ -12,6 +12,29 @@ npx skills add DaniloAmaralUX/wireframe-prototyping --skill wireframe-prototypin
 
 O instalador atual requer Node.js 22.20+. Selecione seu agente quando solicitado. A descoberta de skills depende do agente utilizado; se necessário, recarregue a lista ou indique o caminho do `SKILL.md` instalado no chat.
 
+A instalação fica no projeto onde o comando foi executado e inclui o viewer completo. Use este repositório para obter a adaptação com viewer; a URL original de AJ Geddes instala a versão upstream.
+
+## Atualizar nos projetos
+
+As mudanças precisam primeiro ser publicadas neste repositório, com commit e push para `main`. Depois, no terminal de cada projeto que utiliza a skill, execute:
+
+```sh
+npx skills update wireframe-prototyping --project
+```
+
+O comando atualiza somente esta skill e o viewer incluído. Depois, recarregue as skills ou abra uma nova conversa na IDE para o agente carregar as novas instruções. As instalações nos outros projetos não mudam automaticamente quando uma alteração é publicada no GitHub.
+
+O atualizador usa a origem registrada na instalação. Se você copiou a pasta manualmente ou instalou a skill original de AJ Geddes, execute o comando de instalação acima para passar a usar este repositório como origem.
+
+Os protótipos já gerados permanecem como estão. Para aplicar mudanças do viewer a um protótipo existente, peça ao agente:
+
+```text
+Use a skill wireframe-prototyping atualizada para gerar novamente
+o protótipo em prototypes/<slug>, preservando seus requisitos e fluxos.
+```
+
+Centralize as alterações na cópia deste repositório e publique-as no GitHub. Mudanças feitas diretamente nas cópias instaladas podem ser sobrescritas na próxima atualização.
+
 ## Usar
 
 ```text
